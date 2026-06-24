@@ -89,5 +89,3 @@ Then ask your AI assistant to use DocPurify for document processing.
 ## Repository Layout
 
 - [`SKILL.md`](./SKILL.md): shared core skill definition
-- [`references/mcp-guide.md`](./references/mcp-guide.md): detailed MCP usage guide for AI clients
-

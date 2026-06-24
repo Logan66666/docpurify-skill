@@ -89,5 +89,3 @@ Please install the DocPurify skill from https://docpurify.com/skill/claude , the
 ## 仓库结构
 
 - [`SKILL.md`](./SKILL.md)：共享的核心 skill 定义
-- [`references/mcp-guide.md`](./references/mcp-guide.md)：给 AI 客户端看的详细 MCP 使用说明
-
