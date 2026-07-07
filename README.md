@@ -2,17 +2,31 @@
 
 # DocPurify Skill
 
+![DocPurify Hero](./assets/hero.png)
+
+> **AI content calibration** • Structure & table-aware • Smart cleanup & translation
+
 DocPurify Skill helps AI assistants turn uploaded PDF, Office documents, text files, and images into cleaner, more structured Markdown through DocPurify MCP.
 
 Unlike generic OCR-to-Markdown workflows, DocPurify focuses on document readiness for AI and knowledge workflows: structure-aware extraction, optional full-text AI calibration, cleaner content normalization, and image-aware post-processing.
 
+## Example Prompts
+
+Try these with DocPurify installed:
+
+- "Process this PDF and give me a clean Markdown version with proper headings"
+- "Use DocPurify to convert this document so I can use it for RAG"
+- "Clean up this OCR'd file and fix the structure and formatting"
+- "Turn this PPTX into structured Markdown notes"
+
 ## Why DocPurify
 
-- Supports PDF, DOCX, PPTX, TXT / Markdown, and image files
-- Preserves headings, reading order, and TOC structure more reliably
-- Adds optional AI-based structure and full-text review passes
-- Cleans noisy content such as OCR drift, spacing issues, and irrelevant image descriptions
-- Works well for downstream prompting, RAG ingestion, and internal knowledge workflows
+- ✨ **AI content calibration** — AI-powered review for structure, content accuracy, and formatting
+- 📊 **Table-aware extraction** — Preserves tables, headings, reading order, and TOC reliably
+- 🧹 **Smart cleanup** — Removes irrelevant images, fixes OCR drift, and cleans noisy artifacts
+- 🌐 **Auto translation** — Optional AI translation pass for multilingual workflows
+- 📄 **Multi-format** — PDF, DOCX, PPTX, TXT, Markdown, and images
+- 🚀 **RAG-ready** — Perfect for downstream prompting and knowledge ingestion
 
 ## Official Links
 

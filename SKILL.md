@@ -1,6 +1,14 @@
 ---
 name: docpurify
-description: Convert uploaded PDF, Office documents, text files, and images into cleaner Markdown with DocPurify MCP. Use when the user wants structure-aware extraction, full-text AI calibration, cleaner OCR normalization, image-aware cleanup, job polling, Markdown result retrieval, or managed document-processing workflows.
+description: AI-calibrated document to Markdown converter. Features AI content calibration, structure & table-aware extraction, smart image cleanup, and auto-translation for PDFs, Office docs, and images.
+tags:
+  - document-processing
+  - markdown
+  - ocr
+  - ai
+  - pdf
+  - docx
+  - rag
 ---
 
 # DocPurify
