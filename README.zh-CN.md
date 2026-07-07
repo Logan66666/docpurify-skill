@@ -6,7 +6,7 @@
 
 > **AI 内容校准** • 结构与表格校准 • 智能校验与翻译
 
-DocPurify Skill 让 AI 助手通过 DocPurify MCP，把已上传的 PDF、Office 文档、文本文件和图片转换成更干净、更适合 AI 使用的 Markdown。
+DocPurify Skill 让 AI 助手通过 DocPurify MCP，把本地文件或已上传的 PDF、Office 文档、文本文件和图片转换成更干净、更适合 AI 使用的 Markdown。
 
 和泛化的 OCR 转 Markdown 工具相比，DocPurify 更强调面向 AI 与知识库流程的结果质量：结构感知抽取、可选的全文 AI 校准、更干净的正文归一化，以及图片相关内容的后处理。
 
@@ -98,7 +98,7 @@ Please install the DocPurify skill from https://docpurify.com/skill/claude , the
 }
 ```
 
-然后告诉 AI 助手使用 DocPurify 处理文档即可。
+然后告诉 AI 助手：本地路径用 `upload_document_file`，已有 `file_id` 时用 `submit_document_for_processing`。
 
 ## 仓库结构
 

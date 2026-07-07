@@ -6,7 +6,7 @@
 
 > **AI content calibration** • Structure & table-aware • Smart cleanup & translation
 
-DocPurify Skill helps AI assistants turn uploaded PDF, Office documents, text files, and images into cleaner, more structured Markdown through DocPurify MCP.
+DocPurify Skill helps AI assistants turn local or already-uploaded PDF, Office documents, text files, and images into cleaner, more structured Markdown through DocPurify MCP.
 
 Unlike generic OCR-to-Markdown workflows, DocPurify focuses on document readiness for AI and knowledge workflows: structure-aware extraction, optional full-text AI calibration, cleaner content normalization, and image-aware post-processing.
 
@@ -98,7 +98,7 @@ If your AI client supports MCP but not local skills, configure the MCP server di
 }
 ```
 
-Then ask your AI assistant to use DocPurify for document processing.
+Then ask your AI assistant to use `upload_document_file` for local paths or `submit_document_for_processing` when you already have a `file_id`.
 
 ## Repository Layout
 
